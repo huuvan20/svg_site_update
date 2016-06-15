@@ -1,0 +1,73 @@
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: url('svgs/background.svg') #edeff0;
+  background-size: 53px 50px;
+}
+
+// Layout header
+
+header {
+  padding-top: 10px;
+  nav {
+  	padding-bottom: 50px;
+    text-align: left;
+    ul {
+    	li {
+    		display: inline-block;
+    		margin-right: 20px;
+    	}
+    }
+  }
+  h1 {
+  	line-height: 1em;
+  }
+}
+
+// Layout main
+
+main {
+  padding-top: 50px;
+  h2 {
+  	font-size: 28px;
+  }
+  ul {
+  	padding: 0;
+  }
+  li {
+  	display: inline-block;
+   	color: #ba8058;
+    margin-right: 20px;
+    img {
+    	margin-bottom: 15px;
+    }
+    span {
+    	margin-left: -40px;
+    }
+    &:last-child {
+    	margin-right: 0;
+    }
+  }
+}
+
+// Layout footer
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
