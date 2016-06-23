@@ -1,0 +1,42 @@
+// ==========================================================================
+// Global Config
+// ==========================================================================
+
+// Font Stacks
+
+$font-url--google        : 'https://fonts.googleapis.com/css?family=Roboto+Slab:700,300';
+$font-family--primary    : 'Roboto Slab', serif;
+
+// Font Weights
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+// Colors
+
+$white	: #fff;
+$logo 	: #EAAA7F;
+
+// Colors set
+
+$color-primary	: #111;
+$color-secondary: #edeff0;
+
+$color-3rd		: #BA8058;
+$color-4th		: #39add1;
+$color-5th		: #EAAA7F;
+$color-6th		: #F4C6A6;
+
+// Text
+
+$base__font-size : 16px;
+$base__line      : 24px;
+$letter-space    : 1px;
+
+// Breakpoints
+
+$brkpoint-sm		: 1px;
+$brkpoint-mobile	: 420px;

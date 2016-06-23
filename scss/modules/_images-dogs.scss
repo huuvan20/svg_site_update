@@ -1,0 +1,35 @@
+// ==========================================================================
+// Images dogs styles
+// ==========================================================================
+
+.corgi-red {
+	@extend %images-dogs-size;
+	.st0{fill:#BA8058;}
+	.st1{fill:#FBFEFF;}
+	.st2{fill:#2D3339;}
+	.st3{fill:#EAAA7F;}
+}
+
+.corgi-fawn {
+	@extend %images-dogs-size;
+	.st0{fill:#EAAA7F;}
+	.st1{fill:#FBFEFF;}
+	.st2{fill:#2D3339;}
+	.st3{fill:#F4C6A6;}
+}
+
+.corgi-sable {
+	@extend %images-dogs-size;
+	.st0{fill:#844B24;}
+	.st1{fill:#FBFEFF;}
+	.st2{fill:#2D3339;}
+	.st3{fill:#BA8058;}
+}
+
+.corgi-blacktan {
+	@extend %images-dogs-size;
+	.st0{fill:#BA8058;}
+	.st1{fill:#52595F;}
+	.st2{fill:#FBFEFF;}
+	.st3{fill:#2D3339;}
+}

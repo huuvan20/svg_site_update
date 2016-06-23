@@ -1,0 +1,39 @@
+// ==========================================================================
+// Navigation icons styles
+// ==========================================================================
+
+.icon {
+	@include e(nav) {
+		.st0 {
+			fill: $color-4th;
+		}
+		@include m(location) {
+			height: 14px;
+		}
+		@include m(heart) {
+			transition: transform .3s ease-out;
+		}
+		@include m(location) {
+			transition: transform .3s ease-out;
+		}
+		@include m(contact) {
+			transform-origin: 0% 100%;
+			transition: transform .3s ease-out;
+		}
+	}
+}
+
+nav a:hover {
+	.st0 {
+		fill: $color-primary;
+	}
+	.icon__nav--heart {
+		transform: scale(1.3) translateX(-2px);
+	}
+	.icon__nav--location {
+		transform: rotate(360deg) scale(1.5);
+	}
+	.icon__nav--contact {
+		transform: rotate(-20deg) scale(1.3);
+	}
+}

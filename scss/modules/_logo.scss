@@ -1,0 +1,35 @@
+// ==========================================================================
+// Logo styles
+// ==========================================================================
+
+.logo {
+	width: 140px;
+	height: 120px;
+	.st0 {
+		fill: $color-3rd;
+	}
+	.st1 {
+		fill: $color-5th;
+	}
+	.st2 {
+		fill: $color-6th;
+	}
+	@include m(h1) {
+		display: none;
+	}
+}
+
+@include mq(small) {
+	.logo {
+		@include m(text) {
+			display: none;
+		}
+		@include m(h1) {
+			display: block;
+			color: $logo;
+			font-size: em(17px);
+			margin: 0;
+			letter-spacing: em(1.5px);
+		}
+	}
+}
