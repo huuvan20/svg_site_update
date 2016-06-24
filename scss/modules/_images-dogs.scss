@@ -4,32 +4,32 @@
 
 .corgi-red {
 	@extend %images-dogs-size;
-	.st0{fill:#BA8058;}
-	.st1{fill:#FBFEFF;}
-	.st2{fill:#2D3339;}
-	.st3{fill:#EAAA7F;}
+	.st0{fill: $color__dog--corgi-red;}
+	.st1{fill: $color__dog--eyebrow;}
+	.st2{fill: $color__dog--eyes;}
+	.st3{fill: $color__dog--corgi-fawn;}
 }
 
 .corgi-fawn {
 	@extend %images-dogs-size;
-	.st0{fill:#EAAA7F;}
-	.st1{fill:#FBFEFF;}
-	.st2{fill:#2D3339;}
-	.st3{fill:#F4C6A6;}
+	.st0{fill: $color__dog--corgi-fawn;}
+	.st1{fill: $color__dog--eyebrow;}
+	.st2{fill: $color__dog--eyes;}
+	.st3{fill: $color__dog--eyebrow-light;}
 }
 
 .corgi-sable {
 	@extend %images-dogs-size;
-	.st0{fill:#844B24;}
-	.st1{fill:#FBFEFF;}
-	.st2{fill:#2D3339;}
-	.st3{fill:#BA8058;}
+	.st0{fill: $color__dog--corgi-sable;}
+	.st1{fill: $color__dog--eyebrow;}
+	.st2{fill: $color__dog--eyes;}
+	.st3{fill: $color__dog--corgi-red;}
 }
 
 .corgi-blacktan {
 	@extend %images-dogs-size;
-	.st0{fill:#BA8058;}
-	.st1{fill:#52595F;}
-	.st2{fill:#FBFEFF;}
-	.st3{fill:#2D3339;}
+	.st0{fill: $color__dog--corgi-red;}
+	.st1{fill: $color__dog--corgi-black;}
+	.st2{fill: $color__dog--eyebrow;}
+	.st3{fill: $color__dog--eyes;}
 }

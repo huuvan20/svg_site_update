@@ -200,7 +200,8 @@ header {
       display: inline-block;
       margin-right: 20px; }
     header nav ul svg {
-      height: 13px; }
+      height: 13px;
+      width: 15px; }
   header h1 {
     line-height: 1em; }
 
